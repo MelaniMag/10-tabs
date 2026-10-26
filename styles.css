@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(255, 212, 219);
+    font-family: "Ubuntu", sans-serif;
+}
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.site-header {
+    background-color: rgb(226, 129, 129);
+    color:  rgb(246, 246, 211);
+    border-radius: 20px 20px 0 0;
+    padding: 20px 20px 0 20px;
+}
+
+.site-main {
+    background-color: rgb(246, 246, 211);
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+
+}
+
+code {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 0;
+    margin: 10px 0 0 0;
+    list-style: none;
+}
+
+.site-nav li {
+    flex: 1 1 0;
+}
+
+.nav-link {
+    background-color: rgb(180, 83, 83);
+    display: block;
+    padding: 15px 0;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.current-page {
+    background-color: rgb(246, 246, 211);
+}
+
+.nav-link:hover {
+    background-color: orange;
+}
