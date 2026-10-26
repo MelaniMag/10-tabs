@@ -1,10 +1,18 @@
 body {
     background-color: rgb(255, 212, 219);
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Lexend", sans-serif;
 }
 .wrapper {
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
+}
+
+h2 {
+    color: rgb(36, 171, 36);
+}
+
+p { 
+    color: rgb(121, 118, 118);
 }
 
 .site-header {
@@ -18,7 +26,6 @@ body {
     background-color: rgb(246, 246, 211);
     border-radius: 0 0 20px 20px;
     padding: 20px;
-
 }
 
 code {
@@ -45,10 +52,12 @@ code {
     border-radius: 10px 10px 0 0;
     text-align: center;
     text-decoration: none;
+    color: rgb(246, 246, 211);
 }
 
 .current-page {
     background-color: rgb(246, 246, 211);
+    color: rgb(180, 83, 83);
 }
 
 .nav-link:hover {
